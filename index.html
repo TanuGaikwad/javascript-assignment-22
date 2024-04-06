@@ -8,32 +8,13 @@
     
  <script>
 
- const num = 4;
+const num = parseInt(prompt("Enter the number"));
 
- if(num==1)
-{
-   console.log('one');
-   }
-   else if(num==2)
-   {
-    console.log('two');
-   }
-   else if(num==3)
-   {
-    console.log('three');
-   }
-   else if(num==4)
-   {
-    console.log('four');
-   }
-   else if(num==5)
-   {
-    console.log('five');
-   }
-   else
-   {
-    console.log('invalid number');
-   }
+if(num%2==0)
+console.log(`${num} is even.`);
+else
+console.log(`${num} is odd.`);
+ 
     </script>
 </body>
 </html>
